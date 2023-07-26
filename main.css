@@ -1,0 +1,91 @@
+/*
+    https://css-tricks.com/css-grid-replace-flexbox/
+
+    https://css-tricks.com/understanding-web-fonts-getting/
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+
+*/
+
+/*
+    VIEW UNITS
+
+    https://css-tricks.com/fun-viewport-units/
+
+    vw is like em, in that it is relative to parent container.
+    % is like rem, in that it is absolute.
+*/
+
+/*
+    FONTS
+
+    Go from heavy to light weights, from headings to body content.
+    Divide font-size by 2, from headings to body content.
+
+    Body content line-height should be between 1.2x and 1.5.
+    1.2x for short blocks of text.
+    1.5x for longer form writing.
+
+    For body text aim for between 40 and 70 characters per line.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+
+
+/* Small (sm) */
+@media (min-width: 640px) {
+    /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+    /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+    /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* ... */
+}
+
+:root {
+    font-size: 18px;
+    color: #444;
+}
+
+@font-face {
+    font-family: 'Tangerine', serif;
+    font-size: 96px;
+}
+
+.wrapper {
+    display: flex;
+
+}
+
+.fancy-text {
+    text-align: center;
+    width: 100%;
+    height: 110%;
+    margin: 20vh;
+}
+
+.fancy-text > h1 {
+    margin: 4px;
+}
+
+.fancy-text > p {
+    font-size: 4vh;
+    margin: 4px;
+}
+
+body {
+    font-family: 'Parisienne', serif;
+    font-size: 5vh;
+    background: pink;
+}
+

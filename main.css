@@ -58,6 +58,7 @@ body {
     margin: 4px;
 }
 
+/* Laptop screen sizes and above */
 @media (min-width: 1200px) {
     :root {
         font-size: 18px;
@@ -68,12 +69,8 @@ body {
         font-family: 'Tangerine', serif;
         font-size: 96px;
     }
-    
-
-    
-
-/* */
 }
+/* */
 
 
 

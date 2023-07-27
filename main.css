@@ -34,7 +34,7 @@
 body {
     font-family: 'Parisienne', serif;
     font-size: 5vh;
-    background: pink;
+    background: lightcyan;
 }
 
 .wrapper {
@@ -69,6 +69,13 @@ body {
         font-family: 'Tangerine', serif;
         font-size: 96px;
     }
+
+    
+body {
+    font-family: 'Parisienne', serif;
+    font-size: 5vh;
+    background: pink;
+}
 }
 /* */
 

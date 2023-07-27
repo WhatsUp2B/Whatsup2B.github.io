@@ -36,7 +36,7 @@
 
 body {
     font-family: 'Parisienne', serif;
-    font-size: 5vh;
+    font-size: 5vw;
     background: lightcyan;
 }
 
@@ -72,13 +72,12 @@ body {
         font-family: 'Tangerine', serif;
         font-size: 96px;
     }
-
     
-body {
-    font-family: 'Parisienne', serif;
-    font-size: 5vh;
-    background: pink;
-}
+    body {
+        font-family: 'Parisienne', serif;
+        font-size: 5vh;
+        background: pink;
+    }
 }
 /* */
 

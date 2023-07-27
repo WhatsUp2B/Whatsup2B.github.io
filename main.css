@@ -31,26 +31,30 @@
 
 @import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
 
-
-/* Small (sm) */
-@media (min-width: 640px) {
-    /* ... */
-}
-
-/* Medium (md) */
-@media (min-width: 768px) {
-    /* ... */
-}
-
-/* Large (lg) */
-@media (min-width: 1024px) {
-    /* ... */
-}
+/* 
+***
+    /* Small (sm) */
+    @media (min-width: 640px) {
+        /* ... */
+    }
+    
+    /* Medium (md) */
+    @media (min-width: 768px) {
+        /* ... */
+    }
+    
+    /* Large (lg) */
+    @media (min-width: 1024px) {
+        /* ... */
+    }
+*** 
+*/
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
     /* ... */
 }
+
 
 :root {
     font-size: 18px;

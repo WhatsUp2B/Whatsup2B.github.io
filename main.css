@@ -31,34 +31,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
 
-/* 
-***
-    @media (min-width: 640px) {
-    }
-    
-
-    @media (min-width: 768px) {
-    }
-    
-    @media (min-width: 1024px) {
-    }
-*** 
-*/
-
-/* Extra Large (xl) */
-@media (min-width: 1280px) {
-    /* ... */
-}
-
-
-:root {
-    font-size: 18px;
-    color: #444;
-}
-
-@font-face {
-    font-family: 'Tangerine', serif;
-    font-size: 96px;
+body {
+    font-family: 'Parisienne', serif;
+    font-size: 5vh;
+    background: pink;
 }
 
 .wrapper {
@@ -82,9 +58,22 @@
     margin: 4px;
 }
 
-body {
-    font-family: 'Parisienne', serif;
-    font-size: 5vh;
-    background: pink;
+@media (min-width: 1200px) {
+    :root {
+        font-size: 18px;
+        color: #444;
+    }
+    
+    @font-face {
+        font-family: 'Tangerine', serif;
+        font-size: 96px;
+    }
+    
+
+    
+
+/* */
 }
+
+
 
